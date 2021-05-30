@@ -1,0 +1,90 @@
+Script started on 2021-04-08 23:38:45+09:00 [TERM="xterm" TTY="/dev/pts/10" COLUMNS="110" LINES="33"]
+]0;u18022@solgae: ~u18022@solgae:~$ date >> timerecord
+]0;u18022@solgae: ~u18022@solgae:~$ cat timerecord
+2021. 04. 08. (목) 22:56:21 KST
+2021. 04. 08. (목) 22:56:39 KST
+2021. 04. 08. (목) 23:39:16 KST
+]0;u18022@solgae: ~u18022@solgae:~$ echo HY[Kello \[K<>y>o>u>r>[C & []m]y][1@\[C[C[C[C[C[1@\[C[C[1@\[C[C\[my][C[C[C\]
+Hello <your> & [my]
+]0;u18022@solgae: ~u18022@solgae:~$ bc
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+scale = 30
+5/7
+.714285714285714285714285714285
+]0;u18022@solgae: ~u18022@solgae:~$ bc << A[Kend
+> H[Kscale 30
+> 4[K5/7
+> e[Kend
+(standard_in) 1: syntax error
+0
+]0;u18022@solgae: ~u18022@solgae:~$ bc << end
+scale 30
+5/7
+end
+[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbc << end
+> scl[Kale = 39[K0
+> 5/7
+> end
+.714285714285714285714285714285
+]0;u18022@solgae: ~u18022@solgae:~$ grep a | ls -a
+'&'              .bash_logout   .lesshst   .vimrc   date.txt   ls.txt         out2         typescript
+ [0m[01;34m.[0m               .bashrc        [01;34m.local[0m     aaa      hangul     lyrics-hello   output       u18022-2
+ [01;34m..[0m              [01;34m.cache[0m         .profile   arg.c    hello      [34;42mnewdir[0m         stamp        world
+ .bash_history   [01;34m.config[0m        .viminfo   bc_pi    hello1     out.txt        timerecord
+grpe      ]0;u18022@solgae: ~u18022@solgae:~$ grep a | ls -l
+total 256
+-rw-r--r-- 1 u18022 u_student     17  4월  8 23:01 '&'
+-rw-r--r-- 1 u18022 u_student     38  4월  7 09:36  aaa
+-rw-r--r-- 1 u18022 u_student    132  4월  5 10:41  arg.c
+-rw-r--r-- 1 u18022 u_student      9  4월  8 23:03  bc_pi
+-rw-r--r-- 1 u18022 u_student     33  4월  7 09:23  date.txt
+-rw-r--r-- 1 u18022 u_student     16  3월 24 09:22  hangul
+-rw-r--r-- 1 u18022 u_student     11  4월  8 23:29  hello
+-rw-r--r-- 1 u18022 u_student     28  3월 31 09:11  hello1
+-rw-r--r-- 1 u18022 u_student     38  4월  8 23:32  ls.txt
+-rw-r--r-- 1 u18022 u_student     13  3월 22 09:38  lyrics-hello
+drwxr-xrwx 2 u18022 u_student   4096  3월 24 10:43  [0m[34;42mnewdir[0m
+-rw-r--r-- 1 u18022 u_student    171  4월  7 09:30  out.txt
+-rw-r--r-- 1 u18022 u_student     33  4월  5 10:17  out2
+-rw-r--r-- 1 u18022 u_student     25  4월  5 09:48  output
+-rw-r--r-- 1 u18022 u_student     99  4월  5 09:46  stamp
+-rw-r--r-- 1 u18022 u_student     99  4월  8 23:39  timerecord
+-rw-r--r-- 1 u18022 u_student      0  4월  8 23:38  typescript
+-rw------- 1 u18022 u_student 188416  3월 27 17:20  u18022-2
+-rw-r--r-- 1 u18022 u_student      6  4월  5 09:40  world
+ls -l     ]0;u18022@solgae: ~u18022@solgae:~$  [Kls -l /bom[K[Kin \[K| more
+lrwxrwxrwx 1 root root 7  2월 22 14:23 /bin -> usr/bin
+]0;u18022@solgae: ~u18022@solgae:~$ ls a[K8[K*[]a][C
+aaa
+]0;u18022@solgae: ~u18022@solgae:~$ cd /bin
+]0;u18022@solgae: /binu18022@solgae:/bin$ cd /binls *[a]
+[0m[01;32mbmtoa[0m          [01;32mfoo2lava[0m            [01;32mgnome-session-remmina[0m  [01;32morca[0m      [01;32mpnm2ppa[0m  [01;32mremmina[0m        [01;36mua[0m      [01;32mxgamma[0m
+[01;32mcalibrate_ppa[0m  [01;32mgdk-pixbuf-pixdata[0m  [01;36mlzma[0m                   [01;32mpfbtopfa[0m  [01;32mrdma[0m     [01;32msystemd-delta[0m  [01;36munlzma[0m
+]0;u18022@solgae: /binu18022@solgae:/bin$ cd
+]0;u18022@solgae: ~u18022@solgae:~$ sleep 100 &
+[1] 941287
+]0;u18022@solgae: ~u18022@solgae:~$ sleep 100 &
+[2] 941290
+]0;u18022@solgae: ~u18022@solgae:~$ ls ; pwd l[K; date ;
+'&'    arg.c   date.txt   hello    ls.txt         [0m[34;42mnewdir[0m    out2     stamp        typescript   world
+ aaa   bc_pi   hangul     hello1   lyrics-hello   out.txt   output   timerecord   u18022-2
+/home/u18022
+2021. 04. 08. (목) 23:45:21 KST
+]0;u18022@solgae: ~u18022@solgae:~$ cat h[Khello || echo error
+Hello
+Unix
+[1]-  Done                    sleep 100
+[2]+  Done                    sleep 100
+]0;u18022@solgae: ~u18022@solgae:~$ cat hello || echo errork[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kkill %2
+bash: kill: %2: no such job
+]0;u18022@solgae: ~u18022@solgae:~$ 
+]0;u18022@solgae: ~u18022@solgae:~$ exit
+
+Script done on 2021-04-08 23:47:48+09:00 [COMMAND_EXIT_CODE="1"]

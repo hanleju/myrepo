@@ -1,0 +1,4 @@
+arg.c  date.txt  hello	 ls.txt        newdir	out2	stamp	  world
+bc_pi  hangul	 hello1  lyrics-hello  out.txt	output	u18022-2
+/home/u18022
+2021. 04. 07. (수) 09:30:01 KST

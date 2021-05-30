@@ -1,0 +1,11 @@
+#!/bin/bash
+sum=0;
+total=0
+
+	for i in $(seq 1 $1)
+		do
+			total = 'expr $sum + $i'
+			sum = $total
+		done
+	echo "Sum from 1 to $1 is $total"
+fi
